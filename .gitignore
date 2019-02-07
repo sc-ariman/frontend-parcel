@@ -1,6 +1,5 @@
 *~
 *.bak
-.cache
 .sass-cache
 .DS_Store
 .buildpath
@@ -11,8 +10,10 @@ build
 .idea
 /nbproject
 
+# frontend dev
 # dev
-node_modules
-node_modules/*
-dist/
-dist/*
+/frontend-dev-env/node_modules
+/frontend-dev-env/node_modules/*
+
+# dist
+/dist/assets
